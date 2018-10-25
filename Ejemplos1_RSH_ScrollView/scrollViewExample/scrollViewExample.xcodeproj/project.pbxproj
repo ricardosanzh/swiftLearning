@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D56C5A02181EBE5004933F2 /* INSTRUCCIONES.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 2D56C59F2181EBE5004933F2 /* INSTRUCCIONES.rtfd */; };
+		2D56C5A12181EBE5004933F2 /* INSTRUCCIONES.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 2D56C59F2181EBE5004933F2 /* INSTRUCCIONES.rtfd */; };
+		2D56C5A22181EBE5004933F2 /* INSTRUCCIONES.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 2D56C59F2181EBE5004933F2 /* INSTRUCCIONES.rtfd */; };
 		2DD57FA421762596005FC42D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD57FA321762596005FC42D /* AppDelegate.swift */; };
 		2DD57FA621762596005FC42D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD57FA521762596005FC42D /* ViewController.swift */; };
 		2DD57FA921762596005FC42D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD57FA721762596005FC42D /* Main.storyboard */; };
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D56C59F2181EBE5004933F2 /* INSTRUCCIONES.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = INSTRUCCIONES.rtfd; sourceTree = "<group>"; };
 		2DD57FA021762596005FC42D /* scrollViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scrollViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD57FA321762596005FC42D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD57FA521762596005FC42D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 		2DD57F9721762596005FC42D = {
 			isa = PBXGroup;
 			children = (
+				2D56C59F2181EBE5004933F2 /* INSTRUCCIONES.rtfd */,
 				2DD57FA221762596005FC42D /* scrollViewExample */,
 				2DD57FB721762597005FC42D /* scrollViewExampleTests */,
 				2DD57FC221762597005FC42D /* scrollViewExampleUITests */,
@@ -229,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D56C5A02181EBE5004933F2 /* INSTRUCCIONES.rtfd in Resources */,
 				2DD57FAE21762597005FC42D /* LaunchScreen.storyboard in Resources */,
 				2DD57FAB21762597005FC42D /* Assets.xcassets in Resources */,
 				2DD57FA921762596005FC42D /* Main.storyboard in Resources */,
@@ -239,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D56C5A12181EBE5004933F2 /* INSTRUCCIONES.rtfd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D56C5A22181EBE5004933F2 /* INSTRUCCIONES.rtfd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

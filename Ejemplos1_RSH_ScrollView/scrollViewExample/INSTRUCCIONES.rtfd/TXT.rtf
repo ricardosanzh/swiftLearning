@@ -1,0 +1,40 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{square\}}{\leveltext\leveltemplateid1\'01\uc0\u9642 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+
+\f0\fs24 \cf0 ******************************************************************************************************\
+\pard\tx566\tx1133\tx1700\tx1960\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 HACER UNA SCROLL VIEW MEDIANTE CONSTRAINTS DE INTARFACE BUILDER\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 ******************************************************************************************************\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 En este primer tutorial se aprender\'e1 a hacer una Scroll View de forma sencilla mediante la Intarface Builder. Cabe destacar que tambi\'e9n existe la posibilidad de hacerla mediante c\'f3digo pero es bueno aprovechar las herramientas que XCode nos ofrece hoy en d\'eda.\
+\
+Jerarqu\'eda: Para poder entender la forma de hacerlo, nos fijaremos en la jerarqu\'eda que aqu\'ed se describe:\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls1\ilvl0\cf0 {\listtext	
+\f1 \uc0\u9642 
+\f0 	}Controlador -> View1 -> Scroll View -> View2\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
+\cf0 {{\NeXTGraphic Screen Shot 2018-10-25 at 14.02.10.png \width5020 \height5900 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
+\cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 View1: Para esta View, las constraints que se usar\'e1n ser\'e1n en referencia a su m\'e1s inmediato superior, es decir, el Controlador:\
+TOP, BOTTOM, LEADING, TRAILING. Todas ellas configuradas a 0 para que tenga el m\'e1ximo tama\'f1o de la pantalla.\
+\
+Scroll View: Se a\'f1adir\'e1 dentro de View1 y las contraints que tendr\'e1 ser\'e1n las siguientes: TOP, BOTTOM, LEADING, TRAILING. (0,0,0,0).\
+\
+View2: Para esta View, las constraints que se usar\'e1n estar\'e1n con respecto a la Scroll View: TOP, BOTTOM, LEADING, TRAILING, EQUAL WIDTH, EQUAL HEIGHT. Y para poder hacer el Scroll debidamente,
+\b  la prioridad de EQUAL HEIGHT se cambiar\'e1 de 1000 a 250
+\b0 .\
+\
+En principio, todo estar\'eda configurado ya pero lo que se har\'e1 ser\'e1 incluir dentro varias vistas que sumen una height m\'e1s alta que la de la pantalla. De esa forma sabremos si funciona lo que se ha hecho. En este caso, a parte de las 3 vistas de diferentes colores incluidas, se han dejado bordes negros por arriba y por abajo para que se pueda ver View2 que es su pantalla contenedora.}
