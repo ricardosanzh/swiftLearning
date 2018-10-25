@@ -1,0 +1,47 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}.}{\leveltext\leveltemplateid101\'02\'00.;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qj\partightenfactor0
+
+\f0\fs24 \cf0 *********************************************************************************************************************************************************************************\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qc\partightenfactor0
+\cf0 INTRODUCCI\'d3N DE COMPONENTES CUSTOM\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qj\partightenfactor0
+\cf0 *********************************************************************************************************************************************************************************\
+\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\qj\partightenfactor0
+\ls1\ilvl0\cf0 En este tutorial se podr\'e1 ver como introducir componentes custom mediante el uso de un pod.\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\qj\partightenfactor0
+\cf0 \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\qj\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	1.	}Para poder instalar el componente que utilizaremos, hay que instalar 
+\b cocoapods
+\b0 . Para ello seguiremos las instrucciones del siguiente enlace: \ul \ulc0 https://guides.cocoapods.org/using/getting-started.html\
+\ls2\ilvl0\ulnone {\listtext	2.	}Una vez instalado cocoapods en nuestro proyecto seguiremos las instrucciones ubicadas en el siguiente enlace de git (revisar la secci\'f3n 'Instalaci\'f3n' del manual): \ul \ulc0 https://github.com/Skyscanner/SkyFloatingLabelTextField\ulnone \
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	3.	}Una vez instalado el pod, cerraremos el proyecto y a partir de ahora lo abriremos desde el siguiente archivo para poder usar los pods:{{\NeXTGraphic Screen Shot 2018-10-24 at 11.15.02.png \width7120 \height4660 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\pard\tx220\tx720\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\li720\fi-720\pardirnatural\qj\partightenfactor0
+\ls2\ilvl0\cf0 {\listtext	4.	}Una vez tengamos el proyecto abierto, tendremos una estructura de archivos de siguiente tipo{{\NeXTGraphic Screen Shot 2018-10-24 at 11.29.00.png \width6400 \height14300 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \
+\
+\
+Lo que haremos para poder hacer funcionar nuestro componente custom, ser\'e1 ir al storyboard para asignar el archivo swift al componente de tipo Text Field que a\'f1adiremos nosotros mismos al controlador:\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 {{\NeXTGraphic 235169CB-5685-4EA5-92D6-A79962517BEA.png \width14580 \height13720 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0  \
+A\'f1adiremos el IBOutlet al ViewController en cuesti\'f3n (en este caso 'IntroducedTemplateViewController') y crearemos una funci\'f3n en la secci\'f3n privada del ViewController para configurar el componente. Tambi\'e9n tendremos la opci\'f3n de utilizar las propiedades del mismo a trav\'e9s de la Interface Builder.\
+\
+N\'f3tese que habr\'e1 una diferencia de prioridades a la hora de rellenar el componente customizado, es decir, aunque introduzcamos un texto en el titulo a trav\'e9s de la interface builder, su prioridad se eliminar\'e1 si tambi\'e9n lo rellenamos a trav\'e9s de c\'f3digo. Rec\'farrase a la linea de c\'f3digo comentada en la funci\'f3n creada para configurar el componente customizado y trabajar con las prioridades. \
+\
+Para no olvidar los conocimientos adquiridos, se aconseja utilizar los ficheros creados para colores, tipograf\'edas y strings que se han hecho en lecciones anteriores.}

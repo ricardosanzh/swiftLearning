@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  Templates&Localizables
+
+  Created by Sanz Hinojosas, R. A. on 22/10/2018.
+  Copyright © 2018 -. All rights reserved.
+*/
+
+"main.initLabel" = "what's up? Are you learning?";
+"main.customTextInput" = "The customized text input";
+"main.customTextInput.placeholder" = "Fill this!!";

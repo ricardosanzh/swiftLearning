@@ -1,0 +1,6 @@
+framework module Pods_Templates_LocalizablesTests {
+  umbrella header "Pods-Templates&LocalizablesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

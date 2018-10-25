@@ -1,0 +1,6 @@
+framework module Pods_Templates_Localizables {
+  umbrella header "Pods-Templates&Localizables-umbrella.h"
+
+  export *
+  module * { export * }
+}
