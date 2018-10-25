@@ -11,9 +11,9 @@ Como se podrá comprobar, no se trata de ir aumentando de forma gradual la dific
 
 TUTORIALES: (Todos los tutoriales se han creado en arquitectura MVP).
 
-- Ejemplo1: Implementación de un scroll view sin problemas de constraints.\r\n
-- Ejemplo2: Creación de nuestras propias templates para poder trabajar con varios desarrolladores conservando el código limpio en la medida de lo posible.\r\n
-- Ejemplo3: Crear extensiones de UIColors y UIFonts en nuestro proyecto para añadir nuestros propios colores y fuentes sin tener que estar copiando y pegando código.\r\n
-- Ejemplo4: Inserción de componentes customizados utilizando cocoapods. Este es bastante interesante ya que nos ayudará a aprender (junto con los manuales oficiales) cómo instalar cocoapods y como instalar pods. El componente customizado es uno de ellos.\r\n
-- Ejemplo5: Un ejercicio muy sencillo de paso de un controlador a otro mediante la Interface Builder.\r\n
-- Ejemplo6: Un ejercicio más avanzado de como pasar a un controlador o a otro en función de las necesidades que tengamos. En este caso es en función de una variable boleana.\r\n
+- Ejemplo1: Implementación de un scroll view sin problemas de constraints.
+- Ejemplo2: Creación de nuestras propias templates para poder trabajar con varios desarrolladores conservando el código limpio en la medida de lo posible.
+- Ejemplo3: Crear extensiones de UIColors y UIFonts en nuestro proyecto para añadir nuestros propios colores y fuentes sin tener que estar copiando y pegando código.
+- Ejemplo4: Inserción de componentes customizados utilizando cocoapods. Este es bastante interesante ya que nos ayudará a aprender (junto con los manuales oficiales) cómo instalar cocoapods y como instalar pods. El componente customizado es uno de ellos.
+- Ejemplo5: Un ejercicio muy sencillo de paso de un controlador a otro mediante la Interface Builder.
+- Ejemplo6: Un ejercicio más avanzado de como pasar a un controlador o a otro en función de las necesidades que tengamos. En este caso es en función de una variable boleana.
