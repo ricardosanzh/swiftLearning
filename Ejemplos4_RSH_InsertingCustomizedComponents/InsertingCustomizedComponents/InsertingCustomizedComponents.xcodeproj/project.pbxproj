@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -48,9 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B3DAB63126206EACE263A39 /* Pods-Templates&LocalizablesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesTests/Pods-Templates&LocalizablesTests.debug.xcconfig"; sourceTree = "<group>"; };
-		13A89EAC484016C8A024CE1D /* Pods-Templates&LocalizablesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesUITests/Pods-Templates&LocalizablesUITests.release.xcconfig"; sourceTree = "<group>"; };
-		22B5FA873FBE51DF546D82AE /* Pods-Templates&Localizables.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&Localizables.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables.debug.xcconfig"; sourceTree = "<group>"; };
+		2128F66F9E08B710036DA710 /* Pods-Templates&LocalizablesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesUITests/Pods-Templates&LocalizablesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2D9A8D06217E190C00316D7E /* Templates&Localizables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Templates&Localizables.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D9A8D09217E190C00316D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D9A8D0E217E190C00316D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,12 +67,14 @@
 		2D9A8D51217E1FEC00316D7E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		2DF58AEC218059E300979AC1 /* UIFont+Adittions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Adittions.swift"; sourceTree = "<group>"; };
 		2DF58AF0218059F600979AC1 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
-		42ACF97AB851D3D327084B39 /* Pods-Templates&LocalizablesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesUITests/Pods-Templates&LocalizablesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		420FABB7788EE6E185CC9FC3 /* Pods-Templates&LocalizablesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesTests/Pods-Templates&LocalizablesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		76228E0A799319DE3325FD35 /* Pods_Templates_LocalizablesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Templates_LocalizablesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		826D5BC80DAD34B53A156147 /* Pods-Templates&Localizables.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&Localizables.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables.release.xcconfig"; sourceTree = "<group>"; };
+		7D1A09A264A64E515301EB35 /* Pods-Templates&Localizables.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&Localizables.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables.release.xcconfig"; sourceTree = "<group>"; };
 		85356D0373BC47B8BBC90566 /* Pods_Templates_LocalizablesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Templates_LocalizablesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBA74236ECAB2A69685C742 /* Pods-Templates&LocalizablesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesTests/Pods-Templates&LocalizablesTests.release.xcconfig"; sourceTree = "<group>"; };
 		B3F54258D8781289C500C065 /* Pods_Templates_Localizables.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Templates_Localizables.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5F4DC8758C8B68E5FA7992E /* Pods-Templates&LocalizablesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesTests/Pods-Templates&LocalizablesTests.release.xcconfig"; sourceTree = "<group>"; };
+		C402C4A4B3919E17AA2F8A75 /* Pods-Templates&Localizables.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&Localizables.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A7A1BA4733A278CB6544AC /* Pods-Templates&LocalizablesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Templates&LocalizablesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Templates&LocalizablesUITests/Pods-Templates&LocalizablesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,12 +214,12 @@
 		42A9C8E2D093516ADEC9CBE0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				22B5FA873FBE51DF546D82AE /* Pods-Templates&Localizables.debug.xcconfig */,
-				826D5BC80DAD34B53A156147 /* Pods-Templates&Localizables.release.xcconfig */,
-				0B3DAB63126206EACE263A39 /* Pods-Templates&LocalizablesTests.debug.xcconfig */,
-				C5F4DC8758C8B68E5FA7992E /* Pods-Templates&LocalizablesTests.release.xcconfig */,
-				42ACF97AB851D3D327084B39 /* Pods-Templates&LocalizablesUITests.debug.xcconfig */,
-				13A89EAC484016C8A024CE1D /* Pods-Templates&LocalizablesUITests.release.xcconfig */,
+				C402C4A4B3919E17AA2F8A75 /* Pods-Templates&Localizables.debug.xcconfig */,
+				7D1A09A264A64E515301EB35 /* Pods-Templates&Localizables.release.xcconfig */,
+				420FABB7788EE6E185CC9FC3 /* Pods-Templates&LocalizablesTests.debug.xcconfig */,
+				8EBA74236ECAB2A69685C742 /* Pods-Templates&LocalizablesTests.release.xcconfig */,
+				F4A7A1BA4733A278CB6544AC /* Pods-Templates&LocalizablesUITests.debug.xcconfig */,
+				2128F66F9E08B710036DA710 /* Pods-Templates&LocalizablesUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -392,17 +392,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Templates&Localizables/Pods-Templates&Localizables-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		63F8C7BD8ADD1CFAA620B83C /* [CP] Check Pods Manifest.lock */ = {
@@ -627,10 +626,11 @@
 		};
 		2D9A8D2F217E190D00316D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22B5FA873FBE51DF546D82AE /* Pods-Templates&Localizables.debug.xcconfig */;
+			baseConfigurationReference = C402C4A4B3919E17AA2F8A75 /* Pods-Templates&Localizables.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QLB8KCWQR;
 				INFOPLIST_FILE = "$(SRCROOT)/InsertingCustomizedComponents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -645,10 +645,11 @@
 		};
 		2D9A8D30217E190D00316D7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 826D5BC80DAD34B53A156147 /* Pods-Templates&Localizables.release.xcconfig */;
+			baseConfigurationReference = 7D1A09A264A64E515301EB35 /* Pods-Templates&Localizables.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9QLB8KCWQR;
 				INFOPLIST_FILE = "$(SRCROOT)/InsertingCustomizedComponents/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -663,7 +664,7 @@
 		};
 		2D9A8D32217E190D00316D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B3DAB63126206EACE263A39 /* Pods-Templates&LocalizablesTests.debug.xcconfig */;
+			baseConfigurationReference = 420FABB7788EE6E185CC9FC3 /* Pods-Templates&LocalizablesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -684,7 +685,7 @@
 		};
 		2D9A8D33217E190D00316D7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5F4DC8758C8B68E5FA7992E /* Pods-Templates&LocalizablesTests.release.xcconfig */;
+			baseConfigurationReference = 8EBA74236ECAB2A69685C742 /* Pods-Templates&LocalizablesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -705,7 +706,7 @@
 		};
 		2D9A8D35217E190D00316D7E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42ACF97AB851D3D327084B39 /* Pods-Templates&LocalizablesUITests.debug.xcconfig */;
+			baseConfigurationReference = F4A7A1BA4733A278CB6544AC /* Pods-Templates&LocalizablesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -725,7 +726,7 @@
 		};
 		2D9A8D36217E190D00316D7E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13A89EAC484016C8A024CE1D /* Pods-Templates&LocalizablesUITests.release.xcconfig */;
+			baseConfigurationReference = 2128F66F9E08B710036DA710 /* Pods-Templates&LocalizablesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

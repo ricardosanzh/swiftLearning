@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0940"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "88B41F3778B0AB4DDE4A3B1D30EC8D49"
-               BuildableName = "Pods_Templates_LocalizablesTests.framework"
-               BlueprintName = "Pods-Templates&amp;LocalizablesTests"
+               BlueprintIdentifier = "DF64222231BE683CC635877B6B0CE145"
+               BuildableName = "Pods_Templates_Localizables.framework"
+               BlueprintName = "Pods-Templates&amp;Localizables"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "88B41F3778B0AB4DDE4A3B1D30EC8D49"
-            BuildableName = "Pods_Templates_LocalizablesTests.framework"
-            BlueprintName = "Pods-Templates&amp;LocalizablesTests"
+            BlueprintIdentifier = "DF64222231BE683CC635877B6B0CE145"
+            BuildableName = "Pods_Templates_Localizables.framework"
+            BlueprintName = "Pods-Templates&amp;Localizables"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
